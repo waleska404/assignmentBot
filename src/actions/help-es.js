@@ -9,7 +9,7 @@ export default class extends React.Component {
                     En este bot puedes:
                     Escribir "hubtype" si quieres más información sobre Hubtype.
                     Escribir "botonic" si quieres más información sobre Botonic.
-                    Escribir "autora" si quieres saber más sobre quién ha hecho este bot.
+                    Escribir "autora" si quieres más información sobre quién ha hecho este bot.
                     Escribir "ayuda" si quieres saber las acciones disponibles.
                 </Text>
             </>

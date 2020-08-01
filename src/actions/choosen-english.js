@@ -8,9 +8,7 @@ export default class extends React.Component {
                 <Text>Great!</Text>
                 <Text>
                     Hi {this.props.name}, welcome, this is a bot developed (using Botonic) by Paula Boyano as an asignment for Hubtype.
-                    Si quieres saber más sobre Hubtype, escribe "hubtype".
-                    Si quieres saber más sobre Paula Boyano, escribe "autora".
-                    En cualquier momento puedes consultar los posibles comandos escribiendo "ayuda".
+                    If you want to know what you can do here, type "help".
                 </Text>
             </>
         )

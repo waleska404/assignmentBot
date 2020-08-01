@@ -9,9 +9,8 @@ export default class extends React.Component {
         return (
             <>
                 <Text>Botonic es un framework open-source que te permite crear poderosas interfaces conversacionales.</Text>
-                <Image src='https://botonic.io/images/botonic_react_logo-p-500.png'>
-                    <Button url='https://botonic.io'>Visit Botonic</Button>
-                </Image>
+                <Image src='https://botonic.io/images/botonic_react_logo-p-500.png'> </Image>
+                <Button url='https://botonic.io'>Visitar la web de Botonic</Button>
 
             </>
         )
