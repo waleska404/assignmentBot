@@ -55,7 +55,7 @@ Give an example
 
 * [Botonic](https://botonic.io/) - Framework.
 * [React](https://es.reactjs.org/) - Library.
-* [JavaScript] - Programming language. 
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - Programming language. 
 
 
 ## Authors
