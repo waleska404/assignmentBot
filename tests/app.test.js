@@ -20,6 +20,16 @@ test('TEST: choosen-english.js', async () => {
   )
 })
 
+test('TEST: choosen-spanish.js', async () => {
+  await expect(i.payload('spanish')).resolves.toBe(
+      o.text(
+          '¡Estupendo! Hola {this.props.name}, bienvenido a este bot desarrollado ' +
+          'por Paula Boyano (utilizando Botonic) como tarea de selección para Hubtype.' +
+          'Si quieres saber qué puedes hacer aquí, escribe "ayuda".'
+      )
+  )
+})
+
 
 test('TEST: (404) NOT FOUND', async () => {
   await expect(i.text('whatever')).resolves.toBe(
