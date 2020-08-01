@@ -7,8 +7,8 @@ export default class extends React.Component {
             <>
                 <Text>
                     To interact with this bot you can:
-                    Type "hubtype-info" if you want more information about Hubtype.
-                    Type "botonic-info" if you want more information about Botonic.
+                    Type "company" if you want more information about Hubtype.
+                    Type "framework" if you want more information about Botonic.
                     Type "author" if you want to know more about the author of this bot.
                     Type "help" if you want to know what you can do here.
                 </Text>

@@ -3,15 +3,15 @@ import ChoosenEnglish from './actions/choosen-english'
 import ChoosenSpanish from './actions/choosen-spanish'
 import NotFound from './actions/404'
 
-import BotonicInfoEs from './actions/botonic-info-es'
-import HubtypeInfoEs from './actions/hubtype-info-es'
-import AuthorInfoEs from './actions/author-info-es'
-import HelpEs from './actions/help-es'
+import BotonicInfoEs from './actions/info-actions-es/botonic-info-es'
+import HubtypeInfoEs from './actions/info-actions-es/hubtype-info-es'
+import AuthorInfoEs from './actions/info-actions-es/author-info-es'
+import HelpEs from './actions/info-actions-es/help-es'
 
-import BotonicInfoEn from './actions/botonic-info-en'
-import HubtypeInfoEn from './actions/hubtype-info-en'
-import AuthorInfoEn from './actions/author-info-en'
-import HelpEn from './actions/help-en'
+import BotonicInfoEn from './actions/info-actions-en/botonic-info-en'
+import HubtypeInfoEn from './actions/info-actions-en/hubtype-info-en'
+import AuthorInfoEn from './actions/info-actions-en/author-info-en'
+import HelpEn from './actions/info-actions-en/help-en'
 
 export const routes = [
     { path: 'welcome', text: /hi|hello|hola/, action: Welcome },
@@ -24,8 +24,8 @@ export const routes = [
     { path: 'author-info-es', text: /autora/, action: AuthorInfoEs },
     { path: 'help-es', text: /ayuda/, action: HelpEs },
 
-    { path: 'botonic-info-en', text: /botonic-info/, action: BotonicInfoEn },
-    { path: 'hubtye-info-en', text: /hubtype-info/, action: HubtypeInfoEn },
+    { path: 'botonic-info-en', text: /framework/, action: BotonicInfoEn },
+    { path: 'hubtye-info-en', text: /company/, action: HubtypeInfoEn },
     { path: 'author-info-en', text: /author/, action: AuthorInfoEn },
     { path: 'help-en', text: /help/, action: HelpEn },
 
