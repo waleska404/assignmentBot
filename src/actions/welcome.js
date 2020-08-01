@@ -8,9 +8,9 @@ export default class extends React.Component {
                 <Text>Welcome! / Bienvenido!</Text>
                 <Text>
                     Please choose the language you want to use. / Porfavor, escoge el idioma que prefieras utilizar.
-                    <Button payload='english'>English</Button>
-                    <Button payload='spanish'>Español</Button>
                 </Text>
+                <Button payload='english'>English</Button>
+                <Button payload='spanish'>Español</Button>
             </>
         )
     }

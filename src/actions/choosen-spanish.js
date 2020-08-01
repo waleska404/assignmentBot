@@ -6,7 +6,7 @@ export default class extends React.Component {
         return (
             <>
                 <Text>
-                    ¡Estupendo! Hola {this.props.name}, bienvenido a este bot desarrollado por Paula Boyano (utilizando Botonic) como tarea de selección para Hubtype.
+                    ¡Estupendo! Hola, bienvenido a este bot desarrollado por Paula Boyano (utilizando Botonic) como tarea de selección para Hubtype.
                     Si quieres saber qué puedes hacer aquí, escribe "ayuda".
                 </Text>
             </>

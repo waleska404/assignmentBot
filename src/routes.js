@@ -14,7 +14,7 @@ import AuthorInfoEn from './actions/info-actions-en/author-info-en'
 import HelpEn from './actions/info-actions-en/help-en'
 
 export const routes = [
-    { path: 'welcome', text: /hi|hello|hola/, action: Welcome },
+    { path: 'welcome', text: /start/, action: Welcome },
 
     { path: 'chosen-english',payload:'english',action: ChoosenEnglish },
     { path: 'chosen-spanish', payload: 'spanish', action: ChoosenSpanish },
